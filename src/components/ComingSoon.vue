@@ -6,7 +6,7 @@
       <span class="follow-updates">Follow for updates!</span>
     </div>
     <div class="contact">
-      <span>Contact Hasti</span>
+      <span>Contact Us</span>
       <svg
         class="down-arrow"
         xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
 
 <style scoped>
 main {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,14 +37,14 @@ main {
 }
 
 .banner {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .contact {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: rgb(242, 245, 248);
   display: flex;
   flex-direction: column;
