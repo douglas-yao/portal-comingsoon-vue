@@ -1,5 +1,10 @@
 <template>
-  <div class="contact-container" @mouseover="moveUp" @mouseleave="moveDown">
+  <div
+    class="contact-container"
+    @click="openEmailClient"
+    @mouseover="moveUp"
+    @mouseleave="moveDown"
+  >
     <div class="contact">
       <span>Contact Us</span>
     </div>
@@ -44,6 +49,14 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+
+const openEmailClient = () => {
+  const subject = encodeURIComponent('Regarding The Portal Planner'); // Set your email subject
+  const body = encodeURIComponent('Dear Hasti,\n\n'); // Set your default email body
+
+  const mailtoLink = `mailto:theportalplanner@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = mailtoLink;
+};
 
 const moveUp = () => {
   const contactRef = ref(null);
