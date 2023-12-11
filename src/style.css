@@ -2,11 +2,11 @@
 
 body {
   margin: 5px;
-  margin-top: 20px;
+  margin-top: 5px;
   padding: 10px;
   box-sizing: border-box;
 
-  background-image: url('../public/portal.avif');
+  background-image: url('../public/sparkles.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
