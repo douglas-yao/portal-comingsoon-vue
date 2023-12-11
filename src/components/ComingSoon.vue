@@ -23,7 +23,7 @@ main {
 
 .portal-planner {
   font-style: italic;
-  animation: fadeIn 1.5s ease-out forwards; /* Slower animation */
+  animation: fadeIn 1.5s ease-out forwards;
 }
 
 .coming-soon {

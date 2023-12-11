@@ -10,17 +10,17 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  gap: 10px; /* Reduce the gap for small screens */
+  gap: 10px;
   height: 10vh;
-  align-items: center; /* Center items vertically */
+  align-items: center;
 }
 
 a {
   text-decoration: none;
   color: rgb(194, 200, 208);
   transition: color 0.3s ease;
-  padding: 8px; /* Add padding for touch-friendly area */
-  font-size: 16px; /* Adjust the font size for responsiveness */
+  padding: 8px;
+  font-size: 16px;
 }
 
 a:hover {
@@ -28,14 +28,13 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
   nav {
-    justify-content: center; /* Center links for small screens */
+    justify-content: center;
   }
 
   a {
-    font-size: 14px; /* Reduce font size for small screens */
+    font-size: 14px;
   }
 }
 </style>
