@@ -4,7 +4,7 @@ body {
   padding: 5px;
   box-sizing: border-box;
 
-  background-image: url('../public/sparkles.jpg');
+  background-image: url('/sparkles.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
