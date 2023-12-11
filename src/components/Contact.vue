@@ -43,7 +43,7 @@
 
 .contact-container:hover {
   cursor: pointer;
-  transform: translateY(-5px); /* Move up by 5 pixels on hover */
+  transform: translateY(-5px);
 }
 </style>
 
@@ -51,8 +51,8 @@
 import { ref } from 'vue';
 
 const openEmailClient = () => {
-  const subject = encodeURIComponent('Regarding The Portal Planner'); // Set your email subject
-  const body = encodeURIComponent('Dear Hasti,\n\n'); // Set your default email body
+  const subject = encodeURIComponent('Regarding The Portal Planner');
+  const body = encodeURIComponent('Dear Hasti,\n\n');
 
   const mailtoLink = `mailto:theportalplanner@gmail.com?subject=${subject}&body=${body}`;
   window.location.href = mailtoLink;
