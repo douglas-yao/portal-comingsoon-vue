@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body {
+  margin: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  background-image: url('../public/portal.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(183, 182, 235);
+  color: rgb(32, 35, 38);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+}
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  /* Zoom in the background image for smaller screens */
+  body {
+    background-size: 350%; /* Adjust the percentage as needed */
+  }
+}
