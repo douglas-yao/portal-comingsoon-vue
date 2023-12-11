@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import ContactArrow from '@/components/ContactArrow.vue';
-</script>
-
 <template>
   <div class="main-container">
     <div class="banner">
@@ -9,7 +5,7 @@ import ContactArrow from '@/components/ContactArrow.vue';
       <h1 class="coming-soon">Coming Soon</h1>
       <span class="follow-updates">Follow for updates!</span>
     </div>
-    <ContactArrow class="contact-container" />
+    <Contact class="contact-container" @click="openEmailClient" />
   </div>
 </template>
 
@@ -63,3 +59,15 @@ import ContactArrow from '@/components/ContactArrow.vue';
   }
 }
 </style>
+
+<script setup lang="ts">
+import Contact from '@/components/Contact.vue';
+
+const openEmailClient = () => {
+  const subject = encodeURIComponent('Regarding The Portal Planner'); // Set your email subject
+  const body = encodeURIComponent('Dear Hasti,\n\n'); // Set your default email body
+
+  const mailtoLink = `mailto:theportalplanner@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = mailtoLink;
+};
+</script>
