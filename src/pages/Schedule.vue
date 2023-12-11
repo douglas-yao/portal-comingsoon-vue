@@ -1,5 +1,9 @@
 <template>
-  <div class="main-container">Schedule Coming Soon</div>
+  <div class="main-container">
+    <span class="schedule-coming-soon"
+      >Schedule Section Under Construction</span
+    >
+  </div>
 </template>
 
 <style scoped>
@@ -13,5 +17,19 @@
   padding-top: 20px;
 
   color: rgb(242, 245, 248);
+}
+
+.schedule-coming-soon {
+  opacity: 0;
+  animation: fadeIn 2.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 </style>
