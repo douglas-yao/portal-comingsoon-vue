@@ -1,5 +1,5 @@
 <template>
-  <main class="main-container">
+  <div class="main-container">
     <div class="banner">
       <span class="portal-planner">The Portal Planner</span>
       <h1 class="coming-soon">Coming Soon</h1>
@@ -24,11 +24,11 @@
         />
       </svg>
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped>
-main {
+.main-container {
   /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;

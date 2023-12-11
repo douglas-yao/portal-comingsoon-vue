@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar">
-    <a href="">Home</a>
-    <a href="">Schedule</a>
-    <a href="">About</a>
+    <router-link class="router-link" to="/">Home</router-link>
+    <router-link class="router-link" to="/schedule">Schedule</router-link>
+    <router-link class="router-link" to="/about">About</router-link>
   </nav>
 </template>
 
@@ -15,7 +15,7 @@ nav {
   align-items: center;
 }
 
-a {
+.router-link {
   text-decoration: none;
   color: rgb(194, 200, 208);
   transition: color 0.3s ease;
@@ -23,7 +23,7 @@ a {
   font-size: 16px;
 }
 
-a:hover {
+.router-link:hover {
   color: #333;
   text-decoration: underline;
 }
@@ -33,7 +33,7 @@ a:hover {
     justify-content: center;
   }
 
-  a {
+  .router-link {
     font-size: 14px;
   }
 }

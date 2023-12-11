@@ -1,3 +1,15 @@
 <template>
-  <div>Schedule</div>
+  <div class="main-container">Schedule</div>
 </template>
+
+<style scoped>
+.main-container {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  padding-top: 20px;
+}
+</style>

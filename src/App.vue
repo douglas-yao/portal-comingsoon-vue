@@ -1,17 +1,22 @@
 <script setup lang="ts">
-import Navbar from './components/Navbar.vue';
-import ComingSoon from './components/ComingSoon.vue';
-import Footer from './components/Footer.vue';
+import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
-  <Navbar />
-  <ComingSoon />
-  <Footer />
+  <div id="App">
+    <Navbar />
+    <router-view></router-view>
+    <Footer />
+  </div>
 </template>
 
 <style scoped>
 h1 {
   text-align: center;
+}
+
+#App {
+  height: 100%;
 }
 </style>
