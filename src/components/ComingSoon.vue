@@ -5,8 +5,10 @@
       <h1 class="coming-soon">Coming Soon</h1>
       <span class="follow-updates">Follow for updates!</span>
     </div>
-    <div class="contact">
-      <span>Contact Us</span>
+    <div class="contact-container" @mouseover="moveUp" @mouseleave="moveDown">
+      <div class="contact">
+        <span>Contact Us</span>
+      </div>
       <svg
         class="down-arrow"
         xmlns="http://www.w3.org/2000/svg"
@@ -43,19 +45,19 @@ main {
   align-items: center;
 }
 
-.contact {
+.contact-container {
   /* border: 1px solid red; */
   color: rgb(242, 245, 248);
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 20px;
+  transition: transform 0.3s ease;
 }
 
-.contact span:hover,
-.contact .down-arrow:hover {
+.contact-container:hover {
   cursor: pointer;
-  /* Add additional styling as needed for the hover effect */
+  transform: translateY(-5px); /* Move up by 5 pixels on hover */
 }
 
 .down-arrow {
@@ -72,17 +74,17 @@ main {
 
 .portal-planner {
   font-style: italic;
-  animation: fadeIn 1.5s ease-out forwards;
+  animation: fadeIn 2.5s ease-out forwards;
 }
 
 .coming-soon {
   animation: fadeIn 1.5s ease-out forwards;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 
 .follow-updates {
   animation: fadeIn 1.5s ease-out forwards;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 
 @keyframes fadeIn {
@@ -94,3 +96,23 @@ main {
   }
 }
 </style>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const moveUp = () => {
+  const contactRef = ref(null);
+  const element = contactRef.value as unknown as HTMLElement;
+  if (element) {
+    element.style.transform = 'translateY(-5px)';
+  }
+};
+
+const moveDown = () => {
+  const contactRef = ref(null);
+  const element = contactRef.value as unknown as HTMLElement;
+  if (element) {
+    element.style.transform = 'translateY(0)';
+  }
+};
+</script>
