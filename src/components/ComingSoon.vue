@@ -5,7 +5,6 @@
       <h1 class="coming-soon">Coming Soon</h1>
       <span class="follow-updates">Follow for updates!</span>
     </div>
-
   </div>
 </template>
 
@@ -60,6 +59,4 @@
 }
 </style>
 
-<script setup lang="ts">
-import Contact from '@/components/Contact.vue';
-</script>
+<script setup lang="ts"></script>
