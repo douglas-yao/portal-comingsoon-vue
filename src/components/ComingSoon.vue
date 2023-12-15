@@ -5,7 +5,7 @@
       <h1 class="coming-soon">Coming Soon</h1>
       <span class="follow-updates">Follow for updates!</span>
     </div>
-    <Contact class="contact-container" />
+
   </div>
 </template>
 
