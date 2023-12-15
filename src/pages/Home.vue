@@ -16,6 +16,6 @@ main {
   align-items: center;
   justify-content: space-between;
   height: 85dvh;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 </style>
