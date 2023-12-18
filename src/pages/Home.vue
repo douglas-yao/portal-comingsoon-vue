@@ -15,7 +15,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 85dvh;
-  padding-top: 100px;
+  height: 80%;
 }
 </style>

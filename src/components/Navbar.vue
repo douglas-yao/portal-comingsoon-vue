@@ -10,8 +10,8 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  height: 5vh;
+  gap: 20px;
+  height: 10%;
   align-items: center;
 }
 
@@ -19,13 +19,12 @@ nav {
   text-decoration: none;
   color: rgb(194, 200, 208);
   transition: color 0.3s ease;
-  padding: 8px;
+  /* padding: 8px; */
   font-size: 16px;
 }
 
 .router-link:hover {
   color: #333;
-  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {

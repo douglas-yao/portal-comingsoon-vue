@@ -6,7 +6,7 @@ import Footer from '@/components/Footer.vue';
 <template>
   <div id="App">
     <Navbar />
-    <router-view></router-view>
+    <router-view />
     <Footer />
   </div>
 </template>
@@ -17,6 +17,6 @@ h1 {
 }
 
 #App {
-  height: 100%;
+  height: 100dvh;
 }
 </style>

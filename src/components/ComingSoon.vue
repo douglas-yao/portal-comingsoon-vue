@@ -1,10 +1,8 @@
 <template>
   <div class="main-container">
-    <div class="banner">
-      <span class="portal-planner">The Portal Planner</span>
-      <h1 class="coming-soon">Coming Soon</h1>
-      <span class="follow-updates">Follow for updates!</span>
-    </div>
+    <span class="portal-planner">The Portal Planner</span>
+    <h1 class="coming-soon">Coming Soon</h1>
+    <span class="follow-updates">Follow for updates!</span>
   </div>
 </template>
 
@@ -15,15 +13,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 80vh;
   color: rgb(242, 245, 248);
-}
-
-.banner {
-  /* border: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 20px;
 }
 
 .portal-planner,

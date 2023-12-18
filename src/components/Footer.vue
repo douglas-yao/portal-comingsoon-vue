@@ -16,6 +16,7 @@ footer {
   row-gap: 20px;
   text-align: center;
   color: rgb(194, 200, 208);
+  height: 10%;
 }
 
 .footer-text {

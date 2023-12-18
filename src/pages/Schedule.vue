@@ -13,13 +13,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 85dvh;
-  padding-top: 20px;
+  height: 80%;
 
   color: rgb(242, 245, 248);
 }
 
 .schedule-coming-soon {
+  margin-top: 20px;
   opacity: 0;
   animation: fadeIn 2.5s ease-out forwards;
 }

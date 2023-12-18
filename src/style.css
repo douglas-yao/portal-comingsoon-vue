@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 
 body {
-  padding: 5px;
   box-sizing: border-box;
 
   background-image: url('/sparkles.jpg');
@@ -12,15 +11,13 @@ body {
   color: rgb(32, 35, 38);
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 24px;
-
-  height: 100%;
 }
 
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 600px) {
   body {
     font-size: 18px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 
   /* Zoom in the background image for smaller screens */
