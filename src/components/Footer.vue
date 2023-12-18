@@ -4,17 +4,23 @@ import Contact from '@/components/Contact.vue';
 
 <template>
   <footer>
-    <Contact />
+    <div class="contact-container">
+      <Contact />
+    </div>
     <span class="footer-text">The Portal Planner, LLC</span>
   </footer>
 </template>
 
 <style scoped>
+.contact-container {
+  width: 100px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  text-align: center;
+  align-items: center;
   color: rgb(194, 200, 208);
   height: 5%;
 }
