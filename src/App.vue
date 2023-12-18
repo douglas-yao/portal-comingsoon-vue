@@ -18,5 +18,6 @@ h1 {
 
 #App {
   height: 100dvh;
+  padding: 1%;
 }
 </style>

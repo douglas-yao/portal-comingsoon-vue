@@ -11,7 +11,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
-  height: 10%;
+  height: 5%;
   align-items: center;
 }
 

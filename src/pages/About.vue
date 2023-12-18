@@ -14,10 +14,10 @@
   height: 80%;
 
   color: rgb(242, 245, 248);
+  margin-top: 50px;
 }
 
 .about-coming-soon {
-  margin-top: 20px;
   opacity: 0;
   animation: fadeIn 2.5s ease-out forwards;
 }

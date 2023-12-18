@@ -13,10 +13,10 @@ import Contact from '@/components/Contact.vue';
 footer {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  gap: 20px;
   text-align: center;
   color: rgb(194, 200, 208);
-  height: 10%;
+  height: 5%;
 }
 
 .footer-text {
