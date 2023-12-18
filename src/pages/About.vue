@@ -17,7 +17,7 @@
 }
 
 .about-coming-soon {
-  margin-top: 100px;
+  margin-top: 80px;
   opacity: 0;
   animation: fadeIn 2.5s ease-out forwards;
 }

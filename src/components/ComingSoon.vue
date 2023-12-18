@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   color: rgb(242, 245, 248);
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .portal-planner,
