@@ -30,4 +30,10 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .about-coming-soon {
+    margin-top: 40px;
+  }
+}
 </style>

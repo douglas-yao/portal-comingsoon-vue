@@ -32,4 +32,10 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .schedule-coming-soon {
+    margin-top: 40px;
+  }
+}
 </style>

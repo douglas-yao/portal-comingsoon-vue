@@ -46,6 +46,12 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    margin-top: 40px;
+  }
+}
 </style>
 
 <script setup lang="ts"></script>
