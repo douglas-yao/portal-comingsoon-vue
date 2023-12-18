@@ -19,7 +19,7 @@
 }
 
 .schedule-coming-soon {
-  margin-top: 30px;
+  margin-top: 100px;
   opacity: 0;
   animation: fadeIn 2.5s ease-out forwards;
 }
